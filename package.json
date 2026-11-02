@@ -1,0 +1,1204 @@
+{
+  "name": "nvchad-themes",
+  "displayName": "NvChad Themes",
+  "description": "All 97 NvChad base46 themes, dark and light, with NvChad's exact syntax colors on a clean, flat workbench. Every theme comes in a frameless and a bordered style.",
+  "version": "1.2.4",
+  "publisher": "sabbirahamedmaruf",
+  "author": {
+    "name": "Sabbir Ahamed Maruf"
+  },
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SabbirAhamedMaruf/Nvchad-Themes-Vscode-Vscodium.git"
+  },
+  "homepage": "https://github.com/SabbirAhamedMaruf/Nvchad-Themes-Vscode-Vscodium",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "nvchad",
+    "base46",
+    "neovim",
+    "theme",
+    "color-theme"
+  ],
+  "scripts": {
+    "extract": "node scripts/sync.mjs",
+    "color-keys": "node scripts/vscode-color-keys.mjs",
+    "build": "node scripts/build.mjs",
+    "package": "npx --yes @vscode/vsce@3.6.0 package --allow-missing-repository"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "nvchad-aquarium",
+        "label": "NvChad Aquarium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aquarium.json"
+      },
+      {
+        "id": "nvchad-aquarium-border",
+        "label": "NvChad Aquarium (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aquarium-border.json"
+      },
+      {
+        "id": "nvchad-ashes",
+        "label": "NvChad Ashes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ashes.json"
+      },
+      {
+        "id": "nvchad-ashes-border",
+        "label": "NvChad Ashes (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ashes-border.json"
+      },
+      {
+        "id": "nvchad-aylin",
+        "label": "NvChad Aylin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aylin.json"
+      },
+      {
+        "id": "nvchad-aylin-border",
+        "label": "NvChad Aylin (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aylin-border.json"
+      },
+      {
+        "id": "nvchad-ayu_dark",
+        "label": "NvChad Ayu Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ayu_dark.json"
+      },
+      {
+        "id": "nvchad-ayu_dark-border",
+        "label": "NvChad Ayu Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ayu_dark-border.json"
+      },
+      {
+        "id": "nvchad-ayu_light",
+        "label": "NvChad Ayu Light",
+        "uiTheme": "vs",
+        "path": "./themes/ayu_light.json"
+      },
+      {
+        "id": "nvchad-ayu_light-border",
+        "label": "NvChad Ayu Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/ayu_light-border.json"
+      },
+      {
+        "id": "nvchad-bearded-arc",
+        "label": "NvChad Bearded Arc",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-arc.json"
+      },
+      {
+        "id": "nvchad-bearded-arc-border",
+        "label": "NvChad Bearded Arc (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-arc-border.json"
+      },
+      {
+        "id": "nvchad-blossom_light",
+        "label": "NvChad Blossom Light",
+        "uiTheme": "vs",
+        "path": "./themes/blossom_light.json"
+      },
+      {
+        "id": "nvchad-blossom_light-border",
+        "label": "NvChad Blossom Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/blossom_light-border.json"
+      },
+      {
+        "id": "nvchad-carbonfox",
+        "label": "NvChad Carbonfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbonfox.json"
+      },
+      {
+        "id": "nvchad-carbonfox-border",
+        "label": "NvChad Carbonfox (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbonfox-border.json"
+      },
+      {
+        "id": "nvchad-catppuccin",
+        "label": "NvChad Catppuccin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin.json"
+      },
+      {
+        "id": "nvchad-catppuccin-border",
+        "label": "NvChad Catppuccin (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-border.json"
+      },
+      {
+        "id": "nvchad-catppuccin-latte",
+        "label": "NvChad Catppuccin Latte",
+        "uiTheme": "vs",
+        "path": "./themes/catppuccin-latte.json"
+      },
+      {
+        "id": "nvchad-catppuccin-latte-border",
+        "label": "NvChad Catppuccin Latte (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/catppuccin-latte-border.json"
+      },
+      {
+        "id": "nvchad-chadracula",
+        "label": "NvChad Chadracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chadracula.json"
+      },
+      {
+        "id": "nvchad-chadracula-border",
+        "label": "NvChad Chadracula (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chadracula-border.json"
+      },
+      {
+        "id": "nvchad-chadracula-evondev",
+        "label": "NvChad Chadracula Evondev",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chadracula-evondev.json"
+      },
+      {
+        "id": "nvchad-chadracula-evondev-border",
+        "label": "NvChad Chadracula Evondev (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chadracula-evondev-border.json"
+      },
+      {
+        "id": "nvchad-chadtain",
+        "label": "NvChad Chadtain",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chadtain.json"
+      },
+      {
+        "id": "nvchad-chadtain-border",
+        "label": "NvChad Chadtain (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chadtain-border.json"
+      },
+      {
+        "id": "nvchad-chocolate",
+        "label": "NvChad Chocolate",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chocolate.json"
+      },
+      {
+        "id": "nvchad-chocolate-border",
+        "label": "NvChad Chocolate (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chocolate-border.json"
+      },
+      {
+        "id": "nvchad-darcula-dark",
+        "label": "NvChad Darcula Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darcula-dark.json"
+      },
+      {
+        "id": "nvchad-darcula-dark-border",
+        "label": "NvChad Darcula Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darcula-dark-border.json"
+      },
+      {
+        "id": "nvchad-dark_horizon",
+        "label": "NvChad Dark Horizon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_horizon.json"
+      },
+      {
+        "id": "nvchad-dark_horizon-border",
+        "label": "NvChad Dark Horizon (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_horizon-border.json"
+      },
+      {
+        "id": "nvchad-decay",
+        "label": "NvChad Decay",
+        "uiTheme": "vs-dark",
+        "path": "./themes/decay.json"
+      },
+      {
+        "id": "nvchad-decay-border",
+        "label": "NvChad Decay (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/decay-border.json"
+      },
+      {
+        "id": "nvchad-default-dark",
+        "label": "NvChad Default Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default-dark.json"
+      },
+      {
+        "id": "nvchad-default-dark-border",
+        "label": "NvChad Default Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default-dark-border.json"
+      },
+      {
+        "id": "nvchad-default-light",
+        "label": "NvChad Default Light",
+        "uiTheme": "vs",
+        "path": "./themes/default-light.json"
+      },
+      {
+        "id": "nvchad-default-light-border",
+        "label": "NvChad Default Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/default-light-border.json"
+      },
+      {
+        "id": "nvchad-doomchad",
+        "label": "NvChad Doomchad",
+        "uiTheme": "vs-dark",
+        "path": "./themes/doomchad.json"
+      },
+      {
+        "id": "nvchad-doomchad-border",
+        "label": "NvChad Doomchad (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/doomchad-border.json"
+      },
+      {
+        "id": "nvchad-eldritch",
+        "label": "NvChad Eldritch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eldritch.json"
+      },
+      {
+        "id": "nvchad-eldritch-border",
+        "label": "NvChad Eldritch (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eldritch-border.json"
+      },
+      {
+        "id": "nvchad-embark",
+        "label": "NvChad Embark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/embark.json"
+      },
+      {
+        "id": "nvchad-embark-border",
+        "label": "NvChad Embark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/embark-border.json"
+      },
+      {
+        "id": "nvchad-espresso",
+        "label": "NvChad Espresso",
+        "uiTheme": "vs-dark",
+        "path": "./themes/espresso.json"
+      },
+      {
+        "id": "nvchad-espresso-border",
+        "label": "NvChad Espresso (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/espresso-border.json"
+      },
+      {
+        "id": "nvchad-espresso-light",
+        "label": "NvChad Espresso Light",
+        "uiTheme": "vs",
+        "path": "./themes/espresso-light.json"
+      },
+      {
+        "id": "nvchad-espresso-light-border",
+        "label": "NvChad Espresso Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/espresso-light-border.json"
+      },
+      {
+        "id": "nvchad-everblush",
+        "label": "NvChad Everblush",
+        "uiTheme": "vs-dark",
+        "path": "./themes/everblush.json"
+      },
+      {
+        "id": "nvchad-everblush-border",
+        "label": "NvChad Everblush (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/everblush-border.json"
+      },
+      {
+        "id": "nvchad-everforest",
+        "label": "NvChad Everforest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/everforest.json"
+      },
+      {
+        "id": "nvchad-everforest-border",
+        "label": "NvChad Everforest (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/everforest-border.json"
+      },
+      {
+        "id": "nvchad-everforest_light",
+        "label": "NvChad Everforest Light",
+        "uiTheme": "vs",
+        "path": "./themes/everforest_light.json"
+      },
+      {
+        "id": "nvchad-everforest_light-border",
+        "label": "NvChad Everforest Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/everforest_light-border.json"
+      },
+      {
+        "id": "nvchad-falcon",
+        "label": "NvChad Falcon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/falcon.json"
+      },
+      {
+        "id": "nvchad-falcon-border",
+        "label": "NvChad Falcon (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/falcon-border.json"
+      },
+      {
+        "id": "nvchad-flex-light",
+        "label": "NvChad Flex Light",
+        "uiTheme": "vs",
+        "path": "./themes/flex-light.json"
+      },
+      {
+        "id": "nvchad-flex-light-border",
+        "label": "NvChad Flex Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/flex-light-border.json"
+      },
+      {
+        "id": "nvchad-flexoki",
+        "label": "NvChad Flexoki",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flexoki.json"
+      },
+      {
+        "id": "nvchad-flexoki-border",
+        "label": "NvChad Flexoki (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flexoki-border.json"
+      },
+      {
+        "id": "nvchad-flexoki-light",
+        "label": "NvChad Flexoki Light",
+        "uiTheme": "vs",
+        "path": "./themes/flexoki-light.json"
+      },
+      {
+        "id": "nvchad-flexoki-light-border",
+        "label": "NvChad Flexoki Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/flexoki-light-border.json"
+      },
+      {
+        "id": "nvchad-flouromachine",
+        "label": "NvChad Flouromachine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flouromachine.json"
+      },
+      {
+        "id": "nvchad-flouromachine-border",
+        "label": "NvChad Flouromachine (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flouromachine-border.json"
+      },
+      {
+        "id": "nvchad-gatekeeper",
+        "label": "NvChad Gatekeeper",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gatekeeper.json"
+      },
+      {
+        "id": "nvchad-gatekeeper-border",
+        "label": "NvChad Gatekeeper (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gatekeeper-border.json"
+      },
+      {
+        "id": "nvchad-github_dark",
+        "label": "NvChad GitHub Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github_dark.json"
+      },
+      {
+        "id": "nvchad-github_dark-border",
+        "label": "NvChad GitHub Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github_dark-border.json"
+      },
+      {
+        "id": "nvchad-github_light",
+        "label": "NvChad GitHub Light",
+        "uiTheme": "vs",
+        "path": "./themes/github_light.json"
+      },
+      {
+        "id": "nvchad-github_light-border",
+        "label": "NvChad GitHub Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/github_light-border.json"
+      },
+      {
+        "id": "nvchad-gruvbox",
+        "label": "NvChad Gruvbox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvbox.json"
+      },
+      {
+        "id": "nvchad-gruvbox-border",
+        "label": "NvChad Gruvbox (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvbox-border.json"
+      },
+      {
+        "id": "nvchad-gruvbox_light",
+        "label": "NvChad Gruvbox Light",
+        "uiTheme": "vs",
+        "path": "./themes/gruvbox_light.json"
+      },
+      {
+        "id": "nvchad-gruvbox_light-border",
+        "label": "NvChad Gruvbox Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/gruvbox_light-border.json"
+      },
+      {
+        "id": "nvchad-gruvchad",
+        "label": "NvChad Gruvchad",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvchad.json"
+      },
+      {
+        "id": "nvchad-gruvchad-border",
+        "label": "NvChad Gruvchad (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvchad-border.json"
+      },
+      {
+        "id": "nvchad-hiberbee",
+        "label": "NvChad Hiberbee",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hiberbee.json"
+      },
+      {
+        "id": "nvchad-hiberbee-border",
+        "label": "NvChad Hiberbee (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hiberbee-border.json"
+      },
+      {
+        "id": "nvchad-horizon",
+        "label": "NvChad Horizon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon.json"
+      },
+      {
+        "id": "nvchad-horizon-border",
+        "label": "NvChad Horizon (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon-border.json"
+      },
+      {
+        "id": "nvchad-jabuti",
+        "label": "NvChad Jabuti",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jabuti.json"
+      },
+      {
+        "id": "nvchad-jabuti-border",
+        "label": "NvChad Jabuti (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jabuti-border.json"
+      },
+      {
+        "id": "nvchad-jellybeans",
+        "label": "NvChad Jellybeans",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jellybeans.json"
+      },
+      {
+        "id": "nvchad-jellybeans-border",
+        "label": "NvChad Jellybeans (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jellybeans-border.json"
+      },
+      {
+        "id": "nvchad-kanagawa",
+        "label": "NvChad Kanagawa",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa.json"
+      },
+      {
+        "id": "nvchad-kanagawa-border",
+        "label": "NvChad Kanagawa (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-border.json"
+      },
+      {
+        "id": "nvchad-kanagawa-dragon",
+        "label": "NvChad Kanagawa Dragon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-dragon.json"
+      },
+      {
+        "id": "nvchad-kanagawa-dragon-border",
+        "label": "NvChad Kanagawa Dragon (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-dragon-border.json"
+      },
+      {
+        "id": "nvchad-material-darker",
+        "label": "NvChad Material Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/material-darker.json"
+      },
+      {
+        "id": "nvchad-material-darker-border",
+        "label": "NvChad Material Darker (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/material-darker-border.json"
+      },
+      {
+        "id": "nvchad-material-deep-ocean",
+        "label": "NvChad Material Deep Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/material-deep-ocean.json"
+      },
+      {
+        "id": "nvchad-material-deep-ocean-border",
+        "label": "NvChad Material Deep Ocean (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/material-deep-ocean-border.json"
+      },
+      {
+        "id": "nvchad-material-lighter",
+        "label": "NvChad Material Lighter",
+        "uiTheme": "vs",
+        "path": "./themes/material-lighter.json"
+      },
+      {
+        "id": "nvchad-material-lighter-border",
+        "label": "NvChad Material Lighter (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/material-lighter-border.json"
+      },
+      {
+        "id": "nvchad-melange",
+        "label": "NvChad Melange",
+        "uiTheme": "vs-dark",
+        "path": "./themes/melange.json"
+      },
+      {
+        "id": "nvchad-melange-border",
+        "label": "NvChad Melange (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/melange-border.json"
+      },
+      {
+        "id": "nvchad-midnight_breeze",
+        "label": "NvChad Midnight Breeze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight_breeze.json"
+      },
+      {
+        "id": "nvchad-midnight_breeze-border",
+        "label": "NvChad Midnight Breeze (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight_breeze-border.json"
+      },
+      {
+        "id": "nvchad-mito-laser",
+        "label": "NvChad Mito Laser",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mito-laser.json"
+      },
+      {
+        "id": "nvchad-mito-laser-border",
+        "label": "NvChad Mito Laser (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mito-laser-border.json"
+      },
+      {
+        "id": "nvchad-monekai",
+        "label": "NvChad Monekai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monekai.json"
+      },
+      {
+        "id": "nvchad-monekai-border",
+        "label": "NvChad Monekai (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monekai-border.json"
+      },
+      {
+        "id": "nvchad-monochrome",
+        "label": "NvChad Monochrome",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monochrome.json"
+      },
+      {
+        "id": "nvchad-monochrome-border",
+        "label": "NvChad Monochrome (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monochrome-border.json"
+      },
+      {
+        "id": "nvchad-mountain",
+        "label": "NvChad Mountain",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mountain.json"
+      },
+      {
+        "id": "nvchad-mountain-border",
+        "label": "NvChad Mountain (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mountain-border.json"
+      },
+      {
+        "id": "nvchad-nano-light",
+        "label": "NvChad Nano Light",
+        "uiTheme": "vs",
+        "path": "./themes/nano-light.json"
+      },
+      {
+        "id": "nvchad-nano-light-border",
+        "label": "NvChad Nano Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/nano-light-border.json"
+      },
+      {
+        "id": "nvchad-neofusion",
+        "label": "NvChad Neofusion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neofusion.json"
+      },
+      {
+        "id": "nvchad-neofusion-border",
+        "label": "NvChad Neofusion (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neofusion-border.json"
+      },
+      {
+        "id": "nvchad-nightfox",
+        "label": "NvChad Nightfox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightfox.json"
+      },
+      {
+        "id": "nvchad-nightfox-border",
+        "label": "NvChad Nightfox (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightfox-border.json"
+      },
+      {
+        "id": "nvchad-nightlamp",
+        "label": "NvChad Nightlamp",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightlamp.json"
+      },
+      {
+        "id": "nvchad-nightlamp-border",
+        "label": "NvChad Nightlamp (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightlamp-border.json"
+      },
+      {
+        "id": "nvchad-nightowl",
+        "label": "NvChad Nightowl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightowl.json"
+      },
+      {
+        "id": "nvchad-nightowl-border",
+        "label": "NvChad Nightowl (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightowl-border.json"
+      },
+      {
+        "id": "nvchad-nord",
+        "label": "NvChad Nord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nord.json"
+      },
+      {
+        "id": "nvchad-nord-border",
+        "label": "NvChad Nord (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nord-border.json"
+      },
+      {
+        "id": "nvchad-obsidian-ember",
+        "label": "NvChad Obsidian Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-ember.json"
+      },
+      {
+        "id": "nvchad-obsidian-ember-border",
+        "label": "NvChad Obsidian Ember (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-ember-border.json"
+      },
+      {
+        "id": "nvchad-oceanic-light",
+        "label": "NvChad Oceanic Light",
+        "uiTheme": "vs",
+        "path": "./themes/oceanic-light.json"
+      },
+      {
+        "id": "nvchad-oceanic-light-border",
+        "label": "NvChad Oceanic Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/oceanic-light-border.json"
+      },
+      {
+        "id": "nvchad-oceanic-next",
+        "label": "NvChad Oceanic Next",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oceanic-next.json"
+      },
+      {
+        "id": "nvchad-oceanic-next-border",
+        "label": "NvChad Oceanic Next (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oceanic-next-border.json"
+      },
+      {
+        "id": "nvchad-one_light",
+        "label": "NvChad One Light",
+        "uiTheme": "vs",
+        "path": "./themes/one_light.json"
+      },
+      {
+        "id": "nvchad-one_light-border",
+        "label": "NvChad One Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/one_light-border.json"
+      },
+      {
+        "id": "nvchad-onedark",
+        "label": "NvChad Onedark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onedark.json"
+      },
+      {
+        "id": "nvchad-onedark-border",
+        "label": "NvChad Onedark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onedark-border.json"
+      },
+      {
+        "id": "nvchad-onenord",
+        "label": "NvChad Onenord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onenord.json"
+      },
+      {
+        "id": "nvchad-onenord-border",
+        "label": "NvChad Onenord (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onenord-border.json"
+      },
+      {
+        "id": "nvchad-onenord_light",
+        "label": "NvChad Onenord Light",
+        "uiTheme": "vs",
+        "path": "./themes/onenord_light.json"
+      },
+      {
+        "id": "nvchad-onenord_light-border",
+        "label": "NvChad Onenord Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/onenord_light-border.json"
+      },
+      {
+        "id": "nvchad-oxocarbon",
+        "label": "NvChad Oxocarbon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oxocarbon.json"
+      },
+      {
+        "id": "nvchad-oxocarbon-border",
+        "label": "NvChad Oxocarbon (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oxocarbon-border.json"
+      },
+      {
+        "id": "nvchad-palenight",
+        "label": "NvChad Palenight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight.json"
+      },
+      {
+        "id": "nvchad-palenight-border",
+        "label": "NvChad Palenight (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight-border.json"
+      },
+      {
+        "id": "nvchad-pastelDark",
+        "label": "NvChad Pastel Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pastelDark.json"
+      },
+      {
+        "id": "nvchad-pastelDark-border",
+        "label": "NvChad Pastel Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pastelDark-border.json"
+      },
+      {
+        "id": "nvchad-pastelbeans",
+        "label": "NvChad Pastelbeans",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pastelbeans.json"
+      },
+      {
+        "id": "nvchad-pastelbeans-border",
+        "label": "NvChad Pastelbeans (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pastelbeans-border.json"
+      },
+      {
+        "id": "nvchad-penumbra_dark",
+        "label": "NvChad Penumbra Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/penumbra_dark.json"
+      },
+      {
+        "id": "nvchad-penumbra_dark-border",
+        "label": "NvChad Penumbra Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/penumbra_dark-border.json"
+      },
+      {
+        "id": "nvchad-penumbra_light",
+        "label": "NvChad Penumbra Light",
+        "uiTheme": "vs",
+        "path": "./themes/penumbra_light.json"
+      },
+      {
+        "id": "nvchad-penumbra_light-border",
+        "label": "NvChad Penumbra Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/penumbra_light-border.json"
+      },
+      {
+        "id": "nvchad-poimandres",
+        "label": "NvChad Poimandres",
+        "uiTheme": "vs-dark",
+        "path": "./themes/poimandres.json"
+      },
+      {
+        "id": "nvchad-poimandres-border",
+        "label": "NvChad Poimandres (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/poimandres-border.json"
+      },
+      {
+        "id": "nvchad-radium",
+        "label": "NvChad Radium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/radium.json"
+      },
+      {
+        "id": "nvchad-radium-border",
+        "label": "NvChad Radium (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/radium-border.json"
+      },
+      {
+        "id": "nvchad-rosepine",
+        "label": "NvChad Rosepine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rosepine.json"
+      },
+      {
+        "id": "nvchad-rosepine-border",
+        "label": "NvChad Rosepine (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rosepine-border.json"
+      },
+      {
+        "id": "nvchad-rosepine-dawn",
+        "label": "NvChad Rosepine Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/rosepine-dawn.json"
+      },
+      {
+        "id": "nvchad-rosepine-dawn-border",
+        "label": "NvChad Rosepine Dawn (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/rosepine-dawn-border.json"
+      },
+      {
+        "id": "nvchad-rxyhn",
+        "label": "NvChad Rxyhn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rxyhn.json"
+      },
+      {
+        "id": "nvchad-rxyhn-border",
+        "label": "NvChad Rxyhn (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rxyhn-border.json"
+      },
+      {
+        "id": "nvchad-scaryforest",
+        "label": "NvChad Scaryforest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/scaryforest.json"
+      },
+      {
+        "id": "nvchad-scaryforest-border",
+        "label": "NvChad Scaryforest (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/scaryforest-border.json"
+      },
+      {
+        "id": "nvchad-seoul256_dark",
+        "label": "NvChad Seoul256 Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seoul256_dark.json"
+      },
+      {
+        "id": "nvchad-seoul256_dark-border",
+        "label": "NvChad Seoul256 Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seoul256_dark-border.json"
+      },
+      {
+        "id": "nvchad-seoul256_light",
+        "label": "NvChad Seoul256 Light",
+        "uiTheme": "vs",
+        "path": "./themes/seoul256_light.json"
+      },
+      {
+        "id": "nvchad-seoul256_light-border",
+        "label": "NvChad Seoul256 Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/seoul256_light-border.json"
+      },
+      {
+        "id": "nvchad-slatewave",
+        "label": "NvChad Slatewave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slatewave.json"
+      },
+      {
+        "id": "nvchad-slatewave-border",
+        "label": "NvChad Slatewave (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slatewave-border.json"
+      },
+      {
+        "id": "nvchad-solarized_dark",
+        "label": "NvChad Solarized Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized_dark.json"
+      },
+      {
+        "id": "nvchad-solarized_dark-border",
+        "label": "NvChad Solarized Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized_dark-border.json"
+      },
+      {
+        "id": "nvchad-solarized_light",
+        "label": "NvChad Solarized Light",
+        "uiTheme": "vs",
+        "path": "./themes/solarized_light.json"
+      },
+      {
+        "id": "nvchad-solarized_light-border",
+        "label": "NvChad Solarized Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/solarized_light-border.json"
+      },
+      {
+        "id": "nvchad-solarized_osaka",
+        "label": "NvChad Solarized Osaka",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized_osaka.json"
+      },
+      {
+        "id": "nvchad-solarized_osaka-border",
+        "label": "NvChad Solarized Osaka (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized_osaka-border.json"
+      },
+      {
+        "id": "nvchad-starlight",
+        "label": "NvChad Starlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/starlight.json"
+      },
+      {
+        "id": "nvchad-starlight-border",
+        "label": "NvChad Starlight (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/starlight-border.json"
+      },
+      {
+        "id": "nvchad-sunrise_breeze",
+        "label": "NvChad Sunrise Breeze",
+        "uiTheme": "vs",
+        "path": "./themes/sunrise_breeze.json"
+      },
+      {
+        "id": "nvchad-sunrise_breeze-border",
+        "label": "NvChad Sunrise Breeze (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/sunrise_breeze-border.json"
+      },
+      {
+        "id": "nvchad-sweetpastel",
+        "label": "NvChad Sweetpastel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sweetpastel.json"
+      },
+      {
+        "id": "nvchad-sweetpastel-border",
+        "label": "NvChad Sweetpastel (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sweetpastel-border.json"
+      },
+      {
+        "id": "nvchad-tokyodark",
+        "label": "NvChad Tokyodark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyodark.json"
+      },
+      {
+        "id": "nvchad-tokyodark-border",
+        "label": "NvChad Tokyodark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyodark-border.json"
+      },
+      {
+        "id": "nvchad-tokyonight",
+        "label": "NvChad Tokyonight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyonight.json"
+      },
+      {
+        "id": "nvchad-tokyonight-border",
+        "label": "NvChad Tokyonight (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyonight-border.json"
+      },
+      {
+        "id": "nvchad-tomorrow_night",
+        "label": "NvChad Tomorrow Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tomorrow_night.json"
+      },
+      {
+        "id": "nvchad-tomorrow_night-border",
+        "label": "NvChad Tomorrow Night (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tomorrow_night-border.json"
+      },
+      {
+        "id": "nvchad-tundra",
+        "label": "NvChad Tundra",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tundra.json"
+      },
+      {
+        "id": "nvchad-tundra-border",
+        "label": "NvChad Tundra (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tundra-border.json"
+      },
+      {
+        "id": "nvchad-vesper",
+        "label": "NvChad Vesper",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vesper.json"
+      },
+      {
+        "id": "nvchad-vesper-border",
+        "label": "NvChad Vesper (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vesper-border.json"
+      },
+      {
+        "id": "nvchad-vscode_dark",
+        "label": "NvChad VSCode Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vscode_dark.json"
+      },
+      {
+        "id": "nvchad-vscode_dark-border",
+        "label": "NvChad VSCode Dark (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vscode_dark-border.json"
+      },
+      {
+        "id": "nvchad-vscode_light",
+        "label": "NvChad VSCode Light",
+        "uiTheme": "vs",
+        "path": "./themes/vscode_light.json"
+      },
+      {
+        "id": "nvchad-vscode_light-border",
+        "label": "NvChad VSCode Light (Border)",
+        "uiTheme": "vs",
+        "path": "./themes/vscode_light-border.json"
+      },
+      {
+        "id": "nvchad-wombat",
+        "label": "NvChad Wombat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wombat.json"
+      },
+      {
+        "id": "nvchad-wombat-border",
+        "label": "NvChad Wombat (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wombat-border.json"
+      },
+      {
+        "id": "nvchad-yoru",
+        "label": "NvChad Yoru",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yoru.json"
+      },
+      {
+        "id": "nvchad-yoru-border",
+        "label": "NvChad Yoru (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yoru-border.json"
+      },
+      {
+        "id": "nvchad-zenburn",
+        "label": "NvChad Zenburn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenburn.json"
+      },
+      {
+        "id": "nvchad-zenburn-border",
+        "label": "NvChad Zenburn (Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenburn-border.json"
+      }
+    ]
+  }
+}
